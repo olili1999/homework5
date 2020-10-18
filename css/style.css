@@ -172,6 +172,9 @@ header {
   /*Your code here again.*/
   display: flex;
   flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .nav_item a {
@@ -210,6 +213,9 @@ a:focus {
   .nav_links {
     /*Your code here again.*/
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .nav_item a {
